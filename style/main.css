@@ -1,0 +1,231 @@
+@font-face {
+    font-family: rflex;
+    src: url('./fonts/RobotoFlex-Regular.ttf');
+}
+@font-face {
+    font-family: mrope;
+    src: url('./fonts/Manrope-Regular.ttf');
+}
+@font-face {
+    font-family: pdip;
+    src: url('./fonts/PlayfairDisplay-Black.ttf');
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #F0F0F0;
+}
+section{
+    height: 100vh;
+    width: 100vw;
+}
+nav{
+    z-index: 100;
+    position: fixed;
+    top: 0%;
+    height: 5rem;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1rem;
+    background-color: #ffffff;
+    font-family: rflex;
+}
+.logo img{
+    height: 2.5rem;
+    width: 11rem;
+    mix-blend-mode: darken;
+}
+.navLinks{
+    flex: 1;
+    display: grid;
+    place-content: center;
+}
+.navLinks ul{
+    flex: 1;
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+}
+.navLinks ul li{
+    list-style-type: none;
+}
+.navLinks ul li a{
+    text-decoration: none;
+    color: #222;
+}
+.sinOrsup{
+    font-weight: bold;
+    height: 2.5rem;
+    width: 8rem;
+    font-size: .8rem;
+    background-color: #03B07B;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: .4rem;
+}
+.landing{
+    height: 100vh;
+    width: 100vw;
+    background-image: url('./assets/pngegg.png');
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 3rem;
+    padding-top: 5rem;
+    padding-left: 6rem;
+    justify-content: center;
+}
+.man1{
+    position: absolute;
+    right: 0%;
+    top: 5%;
+    height: 95vh;
+    width: 70vw;
+    background-size: cover;
+    background-position: center;
+    background-image: url('./assets/freepik-export-20240611044014EeVv.png');
+}
+.quote{
+    font-family: pdip;
+    font-size: 3.5rem;
+}
+.gstart{
+    height: 5rem;
+    width: 14rem;
+    font-size: 2rem;
+    font-family: rflex;
+    border-radius: .5rem;
+    border: none;
+    outline: none;
+    background-color: #03B07B;
+    color: #F0F0F0;
+}
+.acc{
+    font-size: .8rem;
+    font-family: rflex;
+}
+.acc h1{
+    color: #22222280;
+    padding-top: 1rem;
+}
+.acc img{
+    padding-left: 1rem;
+}
+.about{
+    font-family: mrope;
+    height: 400vh;
+}
+.aboutCompany{
+    height: 100vh;
+    width: 100vw;
+    padding: 2rem;
+    
+}
+.aboutCompany img{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 10rem;
+    width: 40rem;
+    mix-blend-mode: darken;
+    opacity: .1;
+}
+.aboutContent{
+    margin-top: -5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 4rem;
+    text-align: justify;
+}
+.aboutContent h1{
+    font-size:2rem;
+}
+.m_v{
+    display: flex;
+    gap: 2rem;    
+    text-align: justify;
+}
+.imgRow{
+    z-index: 10;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+.imgRow div{
+    padding: 1rem;
+    height: 15rem;
+    width: 16rem;
+    display: flex;
+    flex-direction: column;
+    background-color: #ffffff;
+    border-radius: 1rem;
+}
+.imgRow p{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: flex-end;
+    text-align: left;
+}
+.imgRow img{
+    height: 8rem;
+    width: 8rem;
+    opacity: 1;
+}
+.promo{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+.left{
+    height: 100vh;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.left img{
+    border-radius: 1rem;
+    height: 30rem;
+    width: 41rem;
+    object-fit: cover;
+    object-position: center;
+}
+.left .top{
+    object-fit: cover;
+    object-position: center;
+    display: flex;
+    gap: 1rem;
+}
+.left .top img{
+    border-radius: 1rem;
+    width: 20rem;
+    height: 15rem;
+}
+.right{
+    width: 50vw;
+    display: grid;
+    place-content: center;
+    gap: 1rem;
+    font-size: 1.2rem;
+    font-family: mrope;
+}
+.right h1{
+    font-size: 2rem;
+}
