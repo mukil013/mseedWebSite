@@ -107,6 +107,7 @@ nav{
     border-radius: .5rem;
     border: none;
     outline: none;
+    padding:1rem;
     background-color: #03B07B;
     color: #F0F0F0;
 }
